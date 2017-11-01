@@ -1,0 +1,64 @@
+.radios,.hotlist {
+    margin: 15px 10px 10px ;
+    .title {
+     font-weight: normal;
+     color: #000;
+     font-size: 16px;
+     margin-bottom: 15px;   
+    }
+    ul {
+        overflow: hidden;
+        margin-right: -8px;
+        li {
+            float: left;
+            width: 50%;
+            height: 60vw;
+            padding-right: 8px;
+            margin-bottom: 10px;
+            overflow: hidden;
+            font-size: 14px;
+            a{  
+                background: rgb(255, 255, 255);
+                text-decoration-line: none;
+                display: block;
+                .item-media {
+                    position: relative;
+                    img {
+                        width: 100%;
+                        z-index: 1;
+                    }
+                    .icon {
+                        z-index: 99;
+                        background-image: url('../img/list_sprite.png');
+                        position: absolute;
+                        height:24px;
+                        width: 24px;
+                        bottom: 9px;
+                        right: 5px;
+                        background-position: 0 0;
+                        background-repeat: no-repeat;
+                        background-size: 24px 60px;
+                    }
+                }
+                
+                .item-info {
+                    color: #000;
+                    padding: 0 7px 5px;
+                    h3 {
+                        margin: 0;
+                        height: 36px;
+                        line-height: 18px;
+                        white-space: normal;
+                        word-wrap: break-word;
+                        font-weight: 200;
+                        white-space:nowrap;
+                        overflow:hidden;
+                        text-overflow: ellipsis;
+                    }
+                }                                   
+            }
+            
+        }
+    }
+}
+
